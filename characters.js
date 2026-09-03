@@ -8919,6 +8919,9 @@ characters.push(
     id: "shanks",
     name: "シャンクス",
     originalName: "Shanks",
+
+image: "images/shanks-one-piece.webp",
+
     work: "ONE PIECE",
     category: "アニメ",
     genre: ["冒険", "アクション"],
@@ -9724,4 +9727,436 @@ characters.forEach(function(character) {
 console.log(
   "シネキャラリンク キャラクター数:",
   characters.length
+);// =====================================================
+// シネキャラリンク 追加100人
+// ① 1〜25
+// =====================================================
+
+characters.push(
+
+  {
+    id: "shanks-one-piece",
+    name: "シャンクス",
+    originalName: "Shanks",
+    work: "ONE PIECE",
+    category: "アニメ",
+    genre: ["冒険", "アクション"],
+    role: "海賊",
+    firstAppearance: "ONE PIECE",
+    personality: "おおらかで仲間を大切にする。",
+    features: ["赤髪", "海賊", "四皇"],
+    relationships: ["モンキー・D・ルフィ", "ベン・ベックマン"],
+    description: "赤髪海賊団を率いる大海賊。幼いルフィの人生に大きな影響を与えた人物。",
+    highlight: "普段の親しみやすさと重要な場面で見せる圧倒的な存在感。",
+    keywords: ["シャンクス", "赤髪", "四皇", "ONE PIECE"]
+  },
+
+  {
+    id: "ben-beckman-one-piece",
+    name: "ベン・ベックマン",
+    originalName: "Benn Beckman",
+    work: "ONE PIECE",
+    category: "アニメ",
+    genre: ["冒険", "アクション"],
+    role: "海賊",
+    firstAppearance: "ONE PIECE",
+    personality: "冷静で判断力に優れる。",
+    features: ["赤髪海賊団", "副船長", "銃"],
+    relationships: ["シャンクス"],
+    description: "赤髪海賊団でシャンクスを支える副船長。",
+    highlight: "落ち着いた判断力で船長と仲間を支える存在。",
+    keywords: ["ベンベックマン", "赤髪海賊団", "副船長", "ONE PIECE"]
+  },
+
+  {
+    id: "yasopp-one-piece",
+    name: "ヤソップ",
+    originalName: "Yasopp",
+    work: "ONE PIECE",
+    category: "アニメ",
+    genre: ["冒険", "アクション"],
+    role: "狙撃手",
+    firstAppearance: "ONE PIECE",
+    personality: "陽気で自由を愛する。",
+    features: ["赤髪海賊団", "狙撃手", "射撃"],
+    relationships: ["シャンクス", "ウソップ"],
+    description: "赤髪海賊団に所属する優れた狙撃手。",
+    highlight: "高い射撃技術を持つ海賊として知られる。",
+    keywords: ["ヤソップ", "狙撃手", "赤髪海賊団", "ONE PIECE"]
+  },
+
+  {
+    id: "lucky-roux-one-piece",
+    name: "ラッキー・ルウ",
+    originalName: "Lucky Roux",
+    work: "ONE PIECE",
+    category: "アニメ",
+    genre: ["冒険", "アクション"],
+    role: "海賊",
+    firstAppearance: "ONE PIECE",
+    personality: "陽気で仲間思い。",
+    features: ["赤髪海賊団", "海賊", "幹部"],
+    relationships: ["シャンクス", "ベン・ベックマン"],
+    description: "シャンクス率いる赤髪海賊団の主要メンバー。",
+    highlight: "陽気な雰囲気と戦闘時の頼もしさを併せ持つ。",
+    keywords: ["ラッキールウ", "赤髪海賊団", "海賊", "ONE PIECE"]
+  },
+
+  {
+    id: "imu-one-piece",
+    name: "イム",
+    originalName: "Imu",
+    work: "ONE PIECE",
+    category: "アニメ",
+    genre: ["冒険", "ファンタジー"],
+    role: "謎の人物",
+    firstAppearance: "ONE PIECE",
+    personality: "多くが謎に包まれている。",
+    features: ["世界政府", "謎", "権力"],
+    relationships: ["五老星"],
+    description: "世界政府の核心に関わる謎の人物。",
+    highlight: "物語世界の秘密に深く関係する存在として注目される。",
+    keywords: ["イム", "世界政府", "五老星", "ONE PIECE"]
+  },
+
+  {
+    id: "garp-one-piece",
+    name: "モンキー・D・ガープ",
+    originalName: "Monkey D. Garp",
+    work: "ONE PIECE",
+    category: "アニメ",
+    genre: ["冒険", "アクション"],
+    role: "海兵",
+    firstAppearance: "ONE PIECE",
+    personality: "豪快で自由奔放。",
+    features: ["海軍", "中将", "英雄"],
+    relationships: ["モンキー・D・ルフィ", "モンキー・D・ドラゴン"],
+    description: "海軍の英雄として知られるベテラン海兵。",
+    highlight: "豪快な性格と長年培った高い戦闘能力が特徴。",
+    keywords: ["ガープ", "海軍", "英雄", "ONE PIECE"]
+  },
+
+  {
+    id: "sengoku-one-piece",
+    name: "センゴク",
+    originalName: "Sengoku",
+    work: "ONE PIECE",
+    category: "アニメ",
+    genre: ["冒険", "アクション"],
+    role: "海兵",
+    firstAppearance: "ONE PIECE",
+    personality: "冷静で責任感が強い。",
+    features: ["海軍", "元帥", "大仏"],
+    relationships: ["モンキー・D・ガープ"],
+    description: "長年にわたり海軍の中枢を担ってきた人物。",
+    highlight: "豊富な経験と状況を見極める判断力を持つ。",
+    keywords: ["センゴク", "海軍", "元帥", "ONE PIECE"]
+  },
+
+  {
+    id: "tsuru-one-piece",
+    name: "つる",
+    originalName: "Tsuru",
+    work: "ONE PIECE",
+    category: "アニメ",
+    genre: ["冒険", "アクション"],
+    role: "海兵",
+    firstAppearance: "ONE PIECE",
+    personality: "冷静で落ち着いている。",
+    features: ["海軍", "中将", "ベテラン"],
+    relationships: ["センゴク", "モンキー・D・ガープ"],
+    description: "長い経験を持つ海軍本部のベテラン中将。",
+    highlight: "豊富な経験を生かして海軍を支える人物。",
+    keywords: ["つる", "海軍", "中将", "ONE PIECE"]
+  },
+
+  {
+    id: "koby-one-piece",
+    name: "コビー",
+    originalName: "Koby",
+    work: "ONE PIECE",
+    category: "アニメ",
+    genre: ["冒険", "アクション"],
+    role: "海兵",
+    firstAppearance: "ONE PIECE",
+    personality: "真面目で強い正義感を持つ。",
+    features: ["海軍", "成長", "正義"],
+    relationships: ["モンキー・D・ルフィ", "モンキー・D・ガープ"],
+    description: "海兵になる夢を追い、経験を重ねながら成長していく青年。",
+    highlight: "弱気だった少年が自らの信念を持つ海兵へ成長していく。",
+    keywords: ["コビー", "海軍", "ガープ", "ONE PIECE"]
+  },
+
+  {
+    id: "helmeppo-one-piece",
+    name: "ヘルメッポ",
+    originalName: "Helmeppo",
+    work: "ONE PIECE",
+    category: "アニメ",
+    genre: ["冒険", "アクション"],
+    role: "海兵",
+    firstAppearance: "ONE PIECE",
+    personality: "努力家で仲間を大切にする。",
+    features: ["海軍", "剣術", "成長"],
+    relationships: ["コビー", "モンキー・D・ガープ"],
+    description: "コビーと共に海軍で鍛錬を重ねる海兵。",
+    highlight: "初登場時から大きく成長していく姿が特徴。",
+    keywords: ["ヘルメッポ", "海軍", "コビー", "ONE PIECE"]
+  },
+
+  {
+    id: "kurenai-yuhi-naruto",
+    name: "夕日紅",
+    originalName: "Kurenai Yuhi",
+    work: "NARUTO -ナルト-",
+    category: "アニメ",
+    genre: ["忍者", "アクション"],
+    role: "忍者",
+    firstAppearance: "NARUTO -ナルト-",
+    personality: "落ち着いており仲間思い。",
+    features: ["木ノ葉隠れ", "上忍", "幻術"],
+    relationships: ["猿飛アスマ", "日向ヒナタ"],
+    description: "木ノ葉隠れの里で班を率いる上忍。",
+    highlight: "幻術を得意とし、教え子たちの成長を見守る。",
+    keywords: ["夕日紅", "紅", "上忍", "NARUTO"]
+  },
+
+  {
+    id: "anko-mitarashi-naruto",
+    name: "みたらしアンコ",
+    originalName: "Anko Mitarashi",
+    work: "NARUTO -ナルト-",
+    category: "アニメ",
+    genre: ["忍者", "アクション"],
+    role: "忍者",
+    firstAppearance: "NARUTO -ナルト-",
+    personality: "大胆で行動力がある。",
+    features: ["木ノ葉隠れ", "特別上忍", "中忍試験"],
+    relationships: ["大蛇丸"],
+    description: "木ノ葉隠れの里に所属する実力ある忍者。",
+    highlight: "過去との因縁を抱えながら任務に向き合う。",
+    keywords: ["アンコ", "みたらしアンコ", "忍者", "NARUTO"]
+  },
+
+  {
+    id: "shizune-naruto",
+    name: "シズネ",
+    originalName: "Shizune",
+    work: "NARUTO -ナルト-",
+    category: "アニメ",
+    genre: ["忍者", "アクション"],
+    role: "医療忍者",
+    firstAppearance: "NARUTO -ナルト-",
+    personality: "真面目で責任感が強い。",
+    features: ["医療忍術", "木ノ葉隠れ", "補佐"],
+    relationships: ["綱手"],
+    description: "綱手を長く支えてきた医療忍者。",
+    highlight: "医療技術と実務能力の両面から仲間を支える。",
+    keywords: ["シズネ", "綱手", "医療忍者", "NARUTO"]
+  },
+
+  {
+    id: "ebisu-naruto",
+    name: "エビス",
+    originalName: "Ebisu",
+    work: "NARUTO -ナルト-",
+    category: "アニメ",
+    genre: ["忍者", "アクション"],
+    role: "忍者",
+    firstAppearance: "NARUTO -ナルト-",
+    personality: "真面目で教育熱心。",
+    features: ["木ノ葉隠れ", "上忍", "指導"],
+    relationships: ["木ノ葉丸"],
+    description: "若い忍者たちの教育を担当する木ノ葉隠れの忍者。",
+    highlight: "基礎を重視した指導で後輩の成長を支える。",
+    keywords: ["エビス", "木ノ葉丸", "上忍", "NARUTO"]
+  },
+
+  {
+    id: "ibiki-morino-naruto",
+    name: "森乃イビキ",
+    originalName: "Ibiki Morino",
+    work: "NARUTO -ナルト-",
+    category: "アニメ",
+    genre: ["忍者", "アクション"],
+    role: "忍者",
+    firstAppearance: "NARUTO -ナルト-",
+    personality: "厳格で精神力が強い。",
+    features: ["木ノ葉隠れ", "尋問", "中忍試験"],
+    relationships: ["木ノ葉の忍者"],
+    description: "尋問や情報収集に長けた木ノ葉隠れの忍者。",
+    highlight: "心理面を重視した試験や任務で高い能力を発揮する。",
+    keywords: ["森乃イビキ", "イビキ", "中忍試験", "NARUTO"]
+  },
+
+  {
+    id: "genma-shiranui-naruto",
+    name: "不知火ゲンマ",
+    originalName: "Genma Shiranui",
+    work: "NARUTO -ナルト-",
+    category: "アニメ",
+    genre: ["忍者", "アクション"],
+    role: "忍者",
+    firstAppearance: "NARUTO -ナルト-",
+    personality: "冷静で落ち着いている。",
+    features: ["木ノ葉隠れ", "特別上忍", "千本"],
+    relationships: ["木ノ葉の忍者"],
+    description: "木ノ葉隠れの里で多くの任務を経験している忍者。",
+    highlight: "危険な状況でも落ち着いて任務を遂行する。",
+    keywords: ["不知火ゲンマ", "ゲンマ", "忍者", "NARUTO"]
+  },
+
+  {
+    id: "raido-namiashi-naruto",
+    name: "並足ライドウ",
+    originalName: "Raido Namiashi",
+    work: "NARUTO -ナルト-",
+    category: "アニメ",
+    genre: ["忍者", "アクション"],
+    role: "忍者",
+    firstAppearance: "NARUTO -ナルト-",
+    personality: "冷静で任務に忠実。",
+    features: ["木ノ葉隠れ", "特別上忍", "護衛"],
+    relationships: ["木ノ葉の忍者"],
+    description: "木ノ葉隠れで重要人物の護衛などを務める忍者。",
+    highlight: "経験を生かしてさまざまな任務を支える。",
+    keywords: ["並足ライドウ", "ライドウ", "木ノ葉", "NARUTO"]
+  },
+
+  {
+    id: "aoba-yamashiro-naruto",
+    name: "山城アオバ",
+    originalName: "Aoba Yamashiro",
+    work: "NARUTO -ナルト-",
+    category: "アニメ",
+    genre: ["忍者", "アクション"],
+    role: "忍者",
+    firstAppearance: "NARUTO -ナルト-",
+    personality: "冷静で観察力がある。",
+    features: ["木ノ葉隠れ", "上忍", "情報"],
+    relationships: ["木ノ葉の忍者"],
+    description: "木ノ葉隠れの里で活動する経験豊富な忍者。",
+    highlight: "情報収集や任務の支援で力を発揮する。",
+    keywords: ["山城アオバ", "アオバ", "上忍", "NARUTO"]
+  },
+
+  {
+    id: "izumo-kamizuki-naruto",
+    name: "神月イズモ",
+    originalName: "Izumo Kamizuki",
+    work: "NARUTO -ナルト-",
+    category: "アニメ",
+    genre: ["忍者", "アクション"],
+    role: "忍者",
+    firstAppearance: "NARUTO -ナルト-",
+    personality: "真面目で協調性がある。",
+    features: ["木ノ葉隠れ", "中忍", "連携"],
+    relationships: ["鋼子テツ"],
+    description: "木ノ葉隠れで任務をこなす中忍。",
+    highlight: "仲間との連携を生かして任務に取り組む。",
+    keywords: ["神月イズモ", "イズモ", "木ノ葉", "NARUTO"]
+  },
+
+  {
+    id: "kotetsu-hagane-naruto",
+    name: "鋼子テツ",
+    originalName: "Kotetsu Hagane",
+    work: "NARUTO -ナルト-",
+    category: "アニメ",
+    genre: ["忍者", "アクション"],
+    role: "忍者",
+    firstAppearance: "NARUTO -ナルト-",
+    personality: "仲間思いで実直。",
+    features: ["木ノ葉隠れ", "中忍", "連携"],
+    relationships: ["神月イズモ"],
+    description: "イズモと共に行動することが多い木ノ葉隠れの忍者。",
+    highlight: "長年の仲間との息の合った連携が特徴。",
+    keywords: ["鋼子テツ", "コテツ", "イズモ", "NARUTO"]
+  },
+
+  {
+    id: "momo-yaoyorozu-mha",
+    name: "八百万百",
+    originalName: "Momo Yaoyorozu",
+    work: "僕のヒーローアカデミア",
+    category: "アニメ",
+    genre: ["ヒーロー", "アクション"],
+    role: "ヒーロー科生徒",
+    firstAppearance: "僕のヒーローアカデミア",
+    personality: "真面目で責任感が強い。",
+    features: ["雄英高校", "創造", "知識"],
+    relationships: ["轟焦凍", "耳郎響香"],
+    description: "雄英高校ヒーロー科で学ぶ、豊富な知識を持つ生徒。",
+    highlight: "知識と個性を組み合わせて状況に応じた道具を生み出す。",
+    keywords: ["八百万百", "ヤオモモ", "雄英高校", "ヒロアカ"]
+  },
+
+  {
+    id: "kyoka-jiro-mha",
+    name: "耳郎響香",
+    originalName: "Kyoka Jiro",
+    work: "僕のヒーローアカデミア",
+    category: "アニメ",
+    genre: ["ヒーロー", "アクション"],
+    role: "ヒーロー科生徒",
+    firstAppearance: "僕のヒーローアカデミア",
+    personality: "クールだが仲間思い。",
+    features: ["雄英高校", "イヤホンジャック", "音楽"],
+    relationships: ["八百万百", "上鳴電気"],
+    description: "音に関係する個性を持つ雄英高校の生徒。",
+    highlight: "戦闘だけでなく音楽の才能でも仲間を支える。",
+    keywords: ["耳郎響香", "耳郎", "イヤホンジャック", "ヒロアカ"]
+  },
+
+  {
+    id: "denki-kaminari-mha",
+    name: "上鳴電気",
+    originalName: "Denki Kaminari",
+    work: "僕のヒーローアカデミア",
+    category: "アニメ",
+    genre: ["ヒーロー", "アクション"],
+    role: "ヒーロー科生徒",
+    firstAppearance: "僕のヒーローアカデミア",
+    personality: "明るく社交的。",
+    features: ["雄英高校", "帯電", "電気"],
+    relationships: ["耳郎響香", "切島鋭児郎"],
+    description: "電気を扱う個性を持つ雄英高校ヒーロー科の生徒。",
+    highlight: "明るい性格でクラスの雰囲気を盛り上げる。",
+    keywords: ["上鳴電気", "上鳴", "電気", "ヒロアカ"]
+  },
+
+  {
+    id: "mina-ashido-mha",
+    name: "芦戸三奈",
+    originalName: "Mina Ashido",
+    work: "僕のヒーローアカデミア",
+    category: "アニメ",
+    genre: ["ヒーロー", "アクション"],
+    role: "ヒーロー科生徒",
+    firstAppearance: "僕のヒーローアカデミア",
+    personality: "明るく積極的。",
+    features: ["雄英高校", "酸", "運動能力"],
+    relationships: ["切島鋭児郎", "瀬呂範太"],
+    description: "酸を操る個性を持つ雄英高校の生徒。",
+    highlight: "高い身体能力と明るい性格を生かして仲間と行動する。",
+    keywords: ["芦戸三奈", "芦戸", "酸", "ヒロアカ"]
+  },
+
+  {
+    id: "hanta-sero-mha",
+    name: "瀬呂範太",
+    originalName: "Hanta Sero",
+    work: "僕のヒーローアカデミア",
+    category: "アニメ",
+    genre: ["ヒーロー", "アクション"],
+    role: "ヒーロー科生徒",
+    firstAppearance: "僕のヒーローアカデミア",
+    personality: "気さくで協調性がある。",
+    features: ["雄英高校", "テープ", "機動力"],
+    relationships: ["上鳴電気", "芦戸三奈"],
+    description: "肘からテープ状の物質を出す個性を持つ生徒。",
+    highlight: "個性を移動や拘束など幅広い用途に活用する。",
+    keywords: ["瀬呂範太", "瀬呂", "テープ", "ヒロアカ"]
+  }
+
 );
