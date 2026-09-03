@@ -1357,9 +1357,13 @@
             <div class="tag-list">
               ${createTags(character.genre)}
             </div>
-<div class="card-more">
+<a
+  class="card-more"
+  href="characters/${encodeURIComponent(character.id)}.html"
+  onclick="event.stopPropagation();"
+>
   詳細を見る →
-</div>
+</a>
           </div>
 
         `;
