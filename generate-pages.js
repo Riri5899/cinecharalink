@@ -121,3 +121,30 @@ characters.forEach((character, index) => {
 });
 
 console.log(`${characters.length}人分のページを作成しました！`);
+
+// sitemap.xml を自動生成
+const sitemapUrls = [
+  "https://cinecharalink.com/",
+  "https://cinecharalink.com/about.html",
+  "https://cinecharalink.com/privacy.html",
+  ...characters.map((character, index) => {
+    const slug = makeSlug(character, index);
+    return `https://cinecharalink.com/characters/${encodeURIComponent(slug)}.html`;
+  })
+];
+
+const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${sitemapUrls.map(url => `  <url>
+    <loc>${url}</loc>
+  </url>`).join("\n")}
+</urlset>
+`;
+
+fs.writeFileSync(
+  path.join(__dirname, "sitemap.xml"),
+  sitemap,
+  "utf8"
+);
+
+console.log(`${sitemapUrls.length}件のURLをサイトマップに追加しました！`);// sitemap.xml を自動生成
